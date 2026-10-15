@@ -1,0 +1,12 @@
+# What this recipe serves and builds. setup.sh reads it; serve.sh takes the same paths from the environment.
+
+[model]
+repo = "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB"   # ModelOpt mixed: IQ2_XXS experts, Q8_0 latent/attention/head, NVFP4 Mamba
+revision = "5de6f7c3ef437af4d9788795c7be20e7f5064ca5"
+
+[engine]
+repo = "https://github.com/BobClawblaw/TensorFold.git"
+branch = "nemotron-bolt"
+sha = "PENDING"
+zig = "0.17.0"
+sm = "120"
