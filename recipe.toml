@@ -6,8 +6,8 @@ revision = "5de6f7c3ef437af4d9788795c7be20e7f5064ca5"
 
 [engine]
 repo = "https://github.com/BobClawblaw/TensorFold.git"
-branch = "nemotron-bolt"
-sha = "PENDING"
+branch = "nemotron-bolt-5090"                   # upstream PR branch nemotron-bolt + the stb image decoder
+sha = "559e443a700340c0d087b313131597681bd520fd"
 zig = "0.17.0"
 sm = "120"
 
