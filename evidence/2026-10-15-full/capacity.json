@@ -1,0 +1,71 @@
+{
+ "results": [
+  {
+   "i": 0,
+   "status": 200,
+   "s": 110.309,
+   "prompt_tokens": 180479,
+   "finish": "length",
+   "error": ""
+  },
+  {
+   "i": 1,
+   "status": 200,
+   "s": 73.445,
+   "prompt_tokens": 180479,
+   "finish": "stop",
+   "error": ""
+  },
+  {
+   "i": 2,
+   "status": 200,
+   "s": 147.191,
+   "prompt_tokens": 180479,
+   "finish": "stop",
+   "error": ""
+  },
+  {
+   "i": 3,
+   "status": 200,
+   "s": 220.971,
+   "prompt_tokens": 180479,
+   "finish": "stop",
+   "error": ""
+  },
+  {
+   "i": 4,
+   "status": 200,
+   "s": 183.946,
+   "prompt_tokens": 180479,
+   "finish": "length",
+   "error": ""
+  },
+  {
+   "i": 5,
+   "status": 200,
+   "s": 220.89,
+   "prompt_tokens": 180479,
+   "finish": "length",
+   "error": ""
+  }
+ ],
+ "after": {
+  "status": 200,
+  "s": 0.1,
+  "text": "Hello! How can I help you today?",
+  "reasoning": "",
+  "finish": "stop",
+  "usage": {
+   "prompt_tokens": 19,
+   "completion_tokens": 10,
+   "total_tokens": 29,
+   "prompt_tokens_details": {
+    "cached_tokens": 7
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0
+   }
+  },
+  "tool_calls": null
+ }
+}

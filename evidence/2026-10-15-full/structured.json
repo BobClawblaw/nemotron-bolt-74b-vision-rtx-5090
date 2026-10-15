@@ -1,0 +1,93 @@
+{
+ "json_object/greedy": {
+  "text": "{\n  \"name\": \"Whiskers\",\n  \"breed\": \"Domestic Shorthair\",\n  \"age\": 3,\n  \"color\": \"Gray and white\",\n  \"personality\": \"Curious and playful\"\n}",
+  "finish": "stop",
+  "ok": true
+ },
+ "json_object/sampled": {
+  "text": "{\n  \"name\": \"Whiskers\",\n  \"breed\": \"Siamese\",\n  \"age\": 3,\n  \"color\": \"cream\",\n  \"isDomestic\": true,\n  \"favoriteToy\": \"laser pointer\"\n}",
+  "finish": "stop",
+  "ok": true
+ },
+ "json_object/thinking": {
+  "text": "{\n  \"name\": \"Whiskers\",\n  \"breed\": \"Domestic Shorthair\",\n  \"age\": 3,\n  \"color\": \"orange tabby\",\n  \"weight_kg\": 4.5,\n  \"is_indoor\": true,\n  \"favorite_food\": \"tuna\"\n}",
+  "finish": "stop",
+  "ok": true
+ },
+ "json_schema/greedy": {
+  "text": "{ \"name\": \"Elias Thorne\", \"age\": 42, \"hobbies\": [\"collecting vintage fountain pens\", \"birdwatching\", \"writing poetry in a leather-bound journal\"] }",
+  "finish": "stop",
+  "ok": true
+ },
+ "json_schema/sampled": {
+  "text": "{ \"name\": \"Elara Voss\", \"age\": 34, \"hobbies\": [\"architectural photography\", \"urban foraging\", \"synth-pop music production\"] }",
+  "finish": "stop",
+  "ok": true
+ },
+ "json_schema/thinking": {
+  "text": "{ \"name\": \"Miriam Voss\", \"age\": 34, \"hobbies\": [\"urban foraging\", \"mushroom identification\", \"vintage typewriter collecting\"] }",
+  "finish": "stop",
+  "ok": true
+ },
+ "guided_json/greedy": {
+  "text": "{ \"name\": \"Elias Thorne\", \"age\": 42, \"hobbies\": [\"Sailing\", \"Marine Biology\", \"Photography\"] }",
+  "finish": "stop",
+  "ok": true
+ },
+ "guided_json/sampled": {
+  "text": "{ \"name\": \"Elias Thorne\", \"age\": 42, \"hobbies\": [\"Sailing\", \"Marine Biology\", \"Astrophotography\"] }",
+  "finish": "stop",
+  "ok": true
+ },
+ "guided_json/thinking": {
+  "text": "",
+  "finish": "length",
+  "ok": null
+ },
+ "regex/greedy": {
+  "text": "(555) 123-4567",
+  "finish": "stop",
+  "ok": true
+ },
+ "regex/sampled": {
+  "text": "(555) 123-4567",
+  "finish": "stop",
+  "ok": true
+ },
+ "regex/thinking": {
+  "text": "(555) 123-4567",
+  "finish": "stop",
+  "ok": true
+ },
+ "choice/greedy": {
+  "text": "no",
+  "finish": "stop",
+  "ok": true
+ },
+ "choice/sampled": {
+  "text": "no",
+  "finish": "stop",
+  "ok": true
+ },
+ "choice/thinking": {
+  "text": "no",
+  "finish": "stop",
+  "ok": true
+ },
+ "grammar/greedy": {
+  "text": "1, 2, 3, 4, 5",
+  "finish": "stop",
+  "ok": true
+ },
+ "grammar/sampled": {
+  "text": "1, 2, 3, 4, 5",
+  "finish": "stop",
+  "ok": true
+ },
+ "grammar/thinking": {
+  "text": "1, 2, 3, 4, 5",
+  "finish": "stop",
+  "ok": true
+ },
+ "bad_regex_status": 400
+}

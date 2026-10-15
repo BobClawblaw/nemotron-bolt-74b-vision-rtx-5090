@@ -1,0 +1,11 @@
+{
+ "name": "snapshot",
+ "score": 1.0,
+ "cases": 12,
+ "passed": 12,
+ "seconds": 10.256578207015991,
+ "notes": [
+  "replies written to /storage/recipe-harness/runs/nemotron-bolt-5090/20261015-175621-full/suite/replies.json"
+ ],
+ "details": {}
+}

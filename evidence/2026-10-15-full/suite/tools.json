@@ -1,0 +1,12 @@
+{
+ "name": "tools",
+ "score": 0.9666666666666667,
+ "cases": 60,
+ "passed": 58,
+ "seconds": 23.48690390586853,
+ "notes": [
+  "'Set a timer for 5 minutes.': got [('set_timer', {'seconds': 300, 'label': '5 minutes'})]",
+  "'Daily reminder to stretch from 2026-10-0': got [('create_reminder', {'text': 'daily reminder to stretch', 'when': '2026-10-08', 'repeat': 'daily'})]"
+ ],
+ "details": {}
+}

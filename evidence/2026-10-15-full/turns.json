@@ -1,0 +1,87 @@
+{
+ "turn1": {
+  "status": 200,
+  "text": "The Danube, the Rhine, and the Volga.",
+  "ttft": 0.892,
+  "usage": {
+   "prompt_tokens": 5808,
+   "completion_tokens": 12,
+   "total_tokens": 5820,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0
+   }
+  },
+  "s": 0.97
+ },
+ "turn2": {
+  "status": 200,
+  "text": "The Volga is the longest of the three.",
+  "ttft": 0.069,
+  "usage": {
+   "prompt_tokens": 5838,
+   "completion_tokens": 11,
+   "total_tokens": 5849,
+   "prompt_tokens_details": {
+    "cached_tokens": 5802
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0
+   }
+  },
+  "s": 0.139
+ },
+ "turn3": {
+  "status": 200,
+  "text": "The Rhine is the shortest of the three.",
+  "ttft": 0.053,
+  "usage": {
+   "prompt_tokens": 5865,
+   "completion_tokens": 10,
+   "total_tokens": 5875,
+   "prompt_tokens_details": {
+    "cached_tokens": 5832
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0
+   }
+  },
+  "s": 0.116
+ },
+ "turn3_again": {
+  "status": 200,
+  "text": "The Rhine is the shortest of the three.",
+  "ttft": 0.03,
+  "usage": {
+   "prompt_tokens": 5865,
+   "completion_tokens": 10,
+   "total_tokens": 5875,
+   "prompt_tokens_details": {
+    "cached_tokens": 5859
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0
+   }
+  },
+  "s": 0.093
+ },
+ "turn3_cold": {
+  "status": 200,
+  "text": "The Rhine is the shortest of the three.",
+  "ttft": 0.134,
+  "usage": {
+   "prompt_tokens": 5866,
+   "completion_tokens": 10,
+   "total_tokens": 5876,
+   "prompt_tokens_details": {
+    "cached_tokens": 5282
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0
+   }
+  },
+  "s": 0.198
+ }
+}
