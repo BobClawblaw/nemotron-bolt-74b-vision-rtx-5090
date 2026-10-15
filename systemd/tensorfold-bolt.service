@@ -1,0 +1,20 @@
+# Copy to /etc/systemd/system/, set User, Group and the two paths to your checkout, then
+#   sudo systemctl daemon-reload && sudo systemctl enable --now tensorfold-bolt
+# Knobs go in a drop-in (sudo systemctl edit tensorfold-bolt), e.g. Environment=VISION=0 CONTEXT=131072 PARALLEL=4
+[Unit]
+Description=NVIDIA Nemotron 3.5 Bolt 74B-A9B + vision on TensorFold native (CUDA, RTX 5090)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=CHANGE-ME
+Group=CHANGE-ME
+WorkingDirectory=/path/to/nemotron-bolt-74b-vision-rtx-5090
+ExecStart=/path/to/nemotron-bolt-74b-vision-rtx-5090/serve.sh
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

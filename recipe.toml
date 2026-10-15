@@ -10,3 +10,6 @@ branch = "nemotron-bolt"
 sha = "PENDING"
 zig = "0.17.0"
 sm = "120"
+
+[grammar]
+xgrammar = "v0.2.8"                                # libtfgrammar for structured output (TensorFold's pinned release)
