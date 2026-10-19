@@ -2,7 +2,7 @@
 
 [model]
 repo = "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB"   # ModelOpt mixed: IQ2_XXS experts, Q8_0 latent/attention/head, NVFP4 Mamba
-revision = "5de6f7c3ef437af4d9788795c7be20e7f5064ca5"
+revision = "c6cc2e8ffa353403213d6b9b18aaf8eb684d705a"   # 2026-10-15 re-upload; weights identical to the first pin (5de6f7c3, gone)
 
 [engine]
 repo = "https://github.com/BobClawblaw/TensorFold.git"
