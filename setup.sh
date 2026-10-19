@@ -21,7 +21,8 @@ hf download "$(pin model repo)" --revision "$(pin model revision)" --local-dir "
 [ -d "$TF_SRC/.git" ] || git clone --branch "$(pin engine branch)" "$(pin engine repo)" "$TF_SRC"
 git -C "$TF_SRC" fetch -q origin "$(pin engine branch)"
 git -C "$TF_SRC" checkout -q "$(pin engine sha)"
-(cd "$TF_SRC" && "$ZIG" build install native -Dnvcc="$NVCC" -Dsm="$(pin engine sm)" -Doptimize=ReleaseFast)
+SM="$(pin engine sm)"   # read here: recipe.toml is not in $TF_SRC, and an empty -Dsm builds for nvcc's default arch
+(cd "$TF_SRC" && "$ZIG" build install native -Dnvcc="$NVCC" -Dsm="$SM" -Doptimize=ReleaseFast)
 
 # structured output: libtfgrammar from xgrammar at the engine's pinned release, where the native server looks (../lib)
 XGRAMMAR="${XGRAMMAR:-$PWD/xgrammar-$(pin grammar xgrammar)}"
